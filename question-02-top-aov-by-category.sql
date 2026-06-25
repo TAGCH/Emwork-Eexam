@@ -58,7 +58,6 @@ ranked AS (
     FROM restaurant_aov
 )
 
--- Step 4: Keep top 3 per category (only shops that actually have orders)
 SELECT
     category_name,
     restaurant_name,
